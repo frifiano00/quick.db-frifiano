@@ -4,7 +4,7 @@ const util = require("util");
 let db;
 
 // Create Database Under Conditions
-if (!db) db = new Database("./allBots.sqlite");
+if (!db) db = new Database("../bigdb.sqlite");
 
 // Declare Methods
 var methods = {
