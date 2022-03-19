@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TrueXPixels/quick.db.git"
+        "url": "git+https://github.com/frifiano/quick.db-frifiano.git"
     },
     "keywords": [
         "database",
@@ -27,7 +27,7 @@
     "author": "TrueXPixels",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/TrueXPixels/quick.db/issues"
+        "url": "https://github.com/frifiano/quick.db-frifiano/issues"
     },
     "homepage": "https://quickdb.js.org"
 }
