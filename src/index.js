@@ -5,7 +5,7 @@ const fs = require('fs')
 let db;
 
 // Create Database Under Conditions
-if (!db) db = new Database(fs.readFileSync("/home/airbot/bigdb.sqlite"));
+if (!db) db = new Database("../../bigdb.sqlite");
 
 // Declare Methods
 var methods = {

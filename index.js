@@ -4,7 +4,7 @@
 // We have an official verified Discord!
 // https://discord.gg/plexidev
 
-module.exports = require("quick.db/src");
+module.exports = require("quick.db-frifiano/src");
 
 // Documentation:
 // https://quickdb.js.org
