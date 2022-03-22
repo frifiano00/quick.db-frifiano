@@ -1,10 +1,11 @@
 // Require Database
 const Database = require("better-sqlite3");
 const util = require("util");
+const fs = require('fs')
 let db;
 
 // Create Database Under Conditions
-if (!db) db = new Database("../bigdb.sqlite");
+if (!db) db = new Database(fs.readFileSync("/Home/airbot/bigdb.sqlite", "utf8"));
 
 // Declare Methods
 var methods = {
