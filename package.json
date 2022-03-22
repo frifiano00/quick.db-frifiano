@@ -1,6 +1,6 @@
 {
     "name": "quick.db-frifiano",
-    "version": "7.1.3",
+    "version": "7.1.5",
     "description": "An easy, non-locking, persistent better-sqlite3 wrapper designed to be easy to setup & utilize",
     "main": "index.js",
     "dependencies": {
